@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { ListGroup } from "../../components/List/ListGroup";
-import { ListItem } from "../../components/List/ListItem";
+import React, { useState } from "react";
 import { Table } from "../../components/Table/Table";
 import { TableBody } from "../../components/Table/TableBody";
 import { TableCell } from "../../components/Table/TableCell";
@@ -26,12 +24,8 @@ function StockConditionPage(props) {
                     dataKey.map((valH, idxH) => (
                         <TableHeaderCell key={idxH}>{valH}</TableHeaderCell>
                     ))}
-                </TableRow>
-            )
-
-
+                </TableRow>)
         }
-
     }
 
     const createTableRow = (datas) => {

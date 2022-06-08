@@ -8,13 +8,16 @@ function App() {
 
   return (
     <div className="App">
-      <Sidebar/>
+      <div className='main-container'>
+        <Sidebar/>
       <PageContainer>
         <Header/>
         <StockConditionPage/>
-      </PageContainer>
+      </PageContainer>     
+      </div>
     </div>
   );
 }
 
 export default App;
+

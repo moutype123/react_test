@@ -3,9 +3,11 @@ import styled from "styled-components";
 
 
 const StyledTableRow = styled.tr`
-    &:hover {
 
-        box-shadow: 10px 5px 5px black;
+    transition : box-shadow 1s;
+
+    &:hover {
+        box-shadow: 5px 5px 10px black;
     }
   
 `

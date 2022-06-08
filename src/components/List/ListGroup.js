@@ -2,13 +2,15 @@ import React from "react";
 import styled from "styled-components";
 
 
-const Container = styled.ul`
+const StyledList = styled.ul`
+    margin : 0px;
+    padding: 0px;
 `
 
 function ListGroup(props){
 
     return(
-        <Container>{props.children}</Container>
+        <StyledList>{props.children}</StyledList>
     )
 
 }

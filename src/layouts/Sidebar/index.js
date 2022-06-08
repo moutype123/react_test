@@ -1,10 +1,17 @@
 import React from "react"
+import { Button } from "../../components/Button/Button"
 import { SidebarContainer } from "./SidebarContainer"
 
 function Sidebar(props){
 
     return(
-        <SidebarContainer>{props.children}</SidebarContainer>
+        <SidebarContainer>
+            <div>
+                <Button>토글</Button>
+            </div>
+            
+            {props.children}
+            </SidebarContainer>
     )
 }
 

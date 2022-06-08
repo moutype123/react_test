@@ -3,9 +3,11 @@ import styled from "styled-components";
 
 
 const Container = styled.div`
-    width : 100%;
+    display : flex;
+    flex-wrap : wrap;
+    align-content: flex-start;
+    width: 100%;
     height : 100vh;
-    margin-left : 250px;
     background-color : #f5f6f8;
 `
 
