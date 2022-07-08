@@ -5,6 +5,7 @@ import styled from "styled-components";
 const StyledList = styled.ul`
     margin : 0px;
     padding: 0px;
+    width:100%
 `
 
 function ListGroup(props){

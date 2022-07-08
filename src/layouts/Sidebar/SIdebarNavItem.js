@@ -18,7 +18,7 @@ const StyledSpan = styled.span`
 
 function SidebarNavItem(props){
 
-    return(
+    return( 
         <StyledListItem>
             {/* <StyledSVG/>  */}
             <StyledItemName>{props.children}</StyledItemName>

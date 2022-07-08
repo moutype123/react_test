@@ -5,9 +5,9 @@ const Container = styled.div`
     position:fixed;
     top : 0;
     width : 100%;
-    height : 30px;
+    height : 2.5rem;
     position : sticky;
-    background-color : blue;    
+    background-color : #fff;    
 `
 
 function HeaderContainer(props){

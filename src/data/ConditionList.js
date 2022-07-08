@@ -1,0 +1,9 @@
+const STOCK_CONDITIONS = [
+    'volumeUp'
+]
+
+const THEME_CONDITIONS = [
+
+]
+
+export {STOCK_CONDITIONS,THEME_CONDITIONS}

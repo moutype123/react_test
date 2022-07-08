@@ -3,12 +3,18 @@ import styled from "styled-components";
 
 
 const StyledTableHeader = styled.thead`
+    position : sticky;
+    top : 3rem;
     vertical-align : middle;
+    background-color : #fff;
+
 `
 
 function TableHeader(props){
     return(
-        <StyledTableHeader>{props.children}</StyledTableHeader>
+        <StyledTableHeader>
+          {props.children}
+        </StyledTableHeader>
     )
 }
 

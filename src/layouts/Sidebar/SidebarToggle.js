@@ -5,6 +5,7 @@ import { Button } from "../../components/Button/Button";
 
 const StyledToggleContainer = styled.div`
     display:flex;
+    height : 2.5rem;
     justify-content: flex-end;
 `
 
